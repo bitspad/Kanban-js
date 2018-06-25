@@ -14,6 +14,8 @@ logfiles/
 opencl/secp256k1
 test/kanban_gpu/debug/
 
+.env
+
 *.aux
 *.gz
 *.out

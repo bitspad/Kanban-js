@@ -1,0 +1,42 @@
+{
+  "name": "kanban",
+  "version": "0.0.1",
+  "description": "FAB coin's kanban system.",
+  "main": "src-vanilla/app.js",
+  "scripts": {
+    "serve": "node src-vanilla/app.js",
+    "develop": "nodemon src-vanilla/app.js",
+    "daemon": "node src-vanilla/daemon.js",
+    "daemonStart": "node src-vanilla/daemon.js start",
+    "daemonStop": "node src-vanilla/daemon.js stop",
+    "test": "node lib/unit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockchaingate/Kanban.git"
+  },
+  "keywords": [
+    "FAB",
+    "coin"
+  ],
+  "author": "Todor Milev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockchaingate/Kanban/issues"
+  },
+  "homepage": "https://github.com/blockchaingate/Kanban#readme",
+  "dependencies": {
+    "big-integer": "^1.6.31",
+    "bitcoinjs-lib": "^3.3.2",
+    "browserify": "^16.1.1",
+    "colors": "^1.2.1",
+    "daemonize2": "^0.4.2",
+    "escape-html": "^1.0.3",
+    "jsonic": "^0.3.0",
+    "mime-types": "^2.1.18",
+    "nodemon": "^1.17.5",
+    "random-seed": "^0.3.0",
+    "randomstring": "^1.1.5",
+    "ssh2": "^0.6.1"
+  }
+}
